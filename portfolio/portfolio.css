@@ -1,0 +1,118 @@
+header {
+  background-color: #5E07DE;
+}
+header .item-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 80px 0 50px 0;
+}
+header .item-container .item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+header .item-container .item h2 {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+header .item-container .item .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #260B4D;
+  padding: 40px;
+  border-radius: 50%;
+}
+header .item-container .item .icon img {
+  max-width: 116px;
+}
+header .item-container .item .icon.active {
+  background-color: white;
+}
+header .item-container .item .icon.active img {
+  filter: invert(41%) sepia(48%) saturate(456%) hue-rotate(262deg) brightness(96%) contrast(95%);
+}
+
+.fotos-section {
+  padding-top: 140px;
+}
+.fotos-section .title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #252525;
+}
+.fotos-section .fotos {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 70px;
+}
+.fotos-section .fotos .foto {
+  flex: 0 0 33%;
+  max-width: 32%;
+  box-sizing: border-box;
+  padding: 6px;
+}
+.fotos-section .fotos .foto img {
+  max-width: 100%;
+}
+
+.contact-2 {
+  padding: 100px 0;
+}
+.contact-2 .box {
+  background-color: #e1e1e1;
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  padding: 40px;
+}
+.contact-2 .box h2 {
+  font-size: 30px;
+  color: #252525;
+  font-weight: bold;
+  max-width: 460px;
+  text-align: center;
+}
+.contact-2 .box a {
+  margin-top: 40px;
+  background: #5E07DE;
+  color: white;
+  border-radius: 10px;
+  padding: 18px 46px;
+  font-weight: bold;
+  font-size: 28px;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.websites {
+  margin-top: 100px;
+}
+.websites .item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #B7B7B7;
+  margin-top: 20px;
+}
+.websites .item img {
+  width: 100%;
+  display: block;
+}
+.websites .item h2 {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 0 50px;
+  color: white;
+}/*# sourceMappingURL=portfolio.css.map */

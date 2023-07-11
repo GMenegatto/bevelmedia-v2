@@ -1,0 +1,138 @@
+header {
+    background-color: #5E07DE;
+
+    .item-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 80px 0 50px 0;
+
+
+        .item {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            flex: 1;
+
+            h2 {
+                color: white;
+                font-size: 24px;
+                font-weight: bold;
+                margin-top: 20px;
+            }
+
+            .icon {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: #260B4D;
+                padding: 40px;
+                border-radius: 50%;
+
+                img {
+                    max-width: 116px;
+                }
+
+                &.active {
+                    img {
+                        filter: invert(41%) sepia(48%) saturate(456%) hue-rotate(262deg) brightness(96%) contrast(95%);
+                    }
+
+                    background-color: white;
+                }
+            }
+        }
+    }
+}
+
+.fotos-section {
+    padding-top: 140px;
+
+    .title {
+        font-size: 28px;
+        font-weight: bold;
+        color: #252525;
+    }
+
+    .fotos {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 70px;
+
+
+        .foto {
+
+            flex: 0 0 33%;
+            max-width: 32%;
+            box-sizing: border-box;
+            padding: 6px;
+
+            img {
+                max-width: 100%;
+            }
+        }
+    }
+}
+
+.contact-2 {
+    padding: 100px 0;
+
+    .box {
+        background-color: #e1e1e1;
+        max-width: 800px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 10px;
+        padding: 40px;
+
+        h2 {
+            font-size: 30px;
+            color: #252525;
+            font-weight: bold;
+            max-width: 460px;
+            text-align: center;
+        }
+
+        a {
+            margin-top: 40px;
+            background: #5E07DE;
+            color: white;
+            border-radius: 10px;
+            padding: 18px 46px;
+            font-weight: bold;
+            font-size: 28px;
+            text-decoration: none;
+        }
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+.websites {
+    margin-top: 100px;
+
+    .item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #B7B7B7;
+        margin-top: 20px;
+
+        img {
+            width: 100%;
+            display: block;
+        }
+
+        h2 {
+            font-size: 30px;
+            font-weight: bold;
+            padding: 0 50px;
+            color: white;
+        }
+    }
+}
