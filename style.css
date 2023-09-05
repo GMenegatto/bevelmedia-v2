@@ -195,16 +195,17 @@ table {
 }
 
 .banner {
-  background-image: url(assets/banner-bg.png);
+  background-image: url(assets/CAPA_SITE_2023.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  height: 100vh;
+  height: 93vh;
 }
 .banner .container {
   display: flex;
   flex-direction: column;
+  height: 100%;
 }
 .banner header {
   padding: 35px 0;
@@ -214,7 +215,7 @@ table {
 }
 .banner header .logo {
   cursor: pointer;
-  max-width: 200px;
+  max-width: 140px;
 }
 .banner header .logo img {
   width: 100%;
@@ -236,7 +237,6 @@ table {
 }
 .banner header .meet-bevel {
   display: flex;
-  gap: 10px;
   justify-content: flex-end;
 }
 .banner header .meet-bevel a {
@@ -248,8 +248,7 @@ table {
   font-weight: 600;
   transition: all 0.3s ease;
   text-decoration: none;
-  background: white;
-  color: black;
+  color: white;
   font-size: 25px;
 }
 .banner header .meet-bevel a .top-fix {
@@ -259,18 +258,32 @@ table {
 .banner header .meet-bevel a:hover {
   background: #363636;
 }
-.banner .left {
+.banner .left,
+.banner .right {
   justify-content: center;
   display: flex;
   flex-direction: column;
+  flex: 0 0 50%;
+  position: relative;
+}
+.banner .left .icon,
+.banner .right .icon {
+  position: absolute;
+  top: 200px;
+  left: -146px;
 }
 .banner .info {
-  margin-top: 210px;
+  flex: 1;
+  display: flex;
+  position: relative;
+  top: -40px;
 }
 .banner .info h1 {
-  font-size: 56px;
+  font-size: 60px;
   font-weight: bold;
   color: white;
+  position: relative;
+  line-height: 70px;
 }
 .banner .info a {
   display: block;
@@ -289,15 +302,10 @@ table {
   padding: 14px 39px;
 }
 .banner .camera {
-  max-width: 1000px;
   margin: 0 auto;
-  height: 900px;
 }
 .banner .camera img {
-  width: 100%;
-  position: relative;
-  right: 30px;
-  top: -80px;
+  width: 90%;
 }
 
 .title {
@@ -1569,4 +1577,29 @@ footer p {
   font-size: 36px;
   font-weight: 700;
   text-shadow: rgba(0, 0, 0, 0.5) 0 10px 10px;
+}
+
+body {
+  background: #f9f9f9;
+  color: #333;
+}
+
+.scroll-indicator {
+  position: absolute;
+  margin-top: 610px;
+  color: white;
+  left: 50%;
+  font-size: 50px;
+  animation: bounce 2.3s infinite;
+}
+@keyframes bounce {
+  0% {
+    top: 15%;
+  }
+  50% {
+    top: 20%;
+  }
+  100% {
+    top: 15%;
+  }
 }/*# sourceMappingURL=style.css.map */

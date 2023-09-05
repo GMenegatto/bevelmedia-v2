@@ -204,16 +204,17 @@ table {
 
 
 .banner {
-    background-image: url(assets/banner-bg.png);
+    background-image: url(assets/CAPA_SITE_2023.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-height: 100vh;
+    height: 93vh;
 
     .container {
         display: flex;
         flex-direction: column;
+        height: 100%;
     }
 
 
@@ -227,7 +228,7 @@ height: 100vh;
 
         .logo {
             cursor: pointer;
-            max-width: 200px;
+            max-width: 140px;
 
             img {
                 width: 100%;
@@ -256,7 +257,6 @@ height: 100vh;
 
         .meet-bevel {
             display: flex;
-            gap: 10px;
             justify-content: flex-end;
 
             a {
@@ -268,8 +268,7 @@ height: 100vh;
                 font-weight: 600;
                 transition: all 0.3s ease;
                 text-decoration: none;
-                background: white;
-                color: black;
+                color: white;
                 font-size: 25px;
 
                 .top-fix {
@@ -284,18 +283,34 @@ height: 100vh;
         }
     }
 
-    .left {
+    .left,
+    .right {
         justify-content: center;
-    display: flex;
-    flex-direction: column;
+        display: flex;
+        flex-direction: column;
+        flex: 0 0 50%;
+        position: relative;
+
+        .icon {
+            position: absolute;
+            top: 200px;
+            left: -146px;
+
+        }
     }
 
     .info {
-        margin-top: 210px;
+        flex: 1;
+        display: flex;
+        position: relative;
+        top: -40px;
+
         h1 {
-            font-size: 56px;
+            font-size: 60px;
             font-weight: bold;
             color: white;
+            position: relative;
+            line-height: 70px;
         }
 
         a {
@@ -318,15 +333,10 @@ height: 100vh;
 
 
     .camera {
-        max-width: 1000px;
         margin: 0 auto;
-        height: 900px;
 
         img {
-            width: 100%;
-            position: relative;
-            right: 30px;
-            top: -80px;
+            width: 90%;
         }
     }
 }
@@ -347,26 +357,26 @@ height: 100vh;
     border-bottom: 1px solid #424264;
 
     span {
-    padding: 3px 7px;
-    font: normal 500 1.4rem/2.5rem "Space Grotesk", sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 0.06rem;
-    color: #a6a4f6;
-    border: 1px solid #a6a4f6;
-    -moz-border-radius: 1.3rem;
-    border-radius: 1.3rem;
-    font-size: 16px;
-    margin-bottom: 30px;
-    display: block;
-    max-width: max-content;
-    line-height: 19px;
+        padding: 3px 7px;
+        font: normal 500 1.4rem/2.5rem "Space Grotesk", sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 0.06rem;
+        color: #a6a4f6;
+        border: 1px solid #a6a4f6;
+        -moz-border-radius: 1.3rem;
+        border-radius: 1.3rem;
+        font-size: 16px;
+        margin-bottom: 30px;
+        display: block;
+        max-width: max-content;
+        line-height: 19px;
     }
 
     p {
-    color: #a9a9ca;
-    margin-top: 18px;
-    font-size: 18px;
-    line-height: 24px;
+        color: #a9a9ca;
+        margin-top: 18px;
+        font-size: 18px;
+        line-height: 24px;
     }
 
     h2 {
@@ -487,12 +497,14 @@ a {
     }
 
     .items {
-display: flex;
-gap: 15px;
-margin-top: 20px;
+        display: flex;
+        gap: 15px;
+        margin-top: 20px;
+
         .img {
             border-radius: 12px;
             overflow: hidden;
+
             img {
                 max-width: 100%;
                 display: block;
@@ -506,9 +518,10 @@ margin-top: 20px;
         .item {
             border-radius: 20px;
             padding: 30px 15px;
-            background: rgb(20,20,56);
-            background: linear-gradient(157deg, rgba(20,20,56,1) 0%, rgba(40,40,98,1) 30%, rgba(34,34,83,1) 100%);
+            background: rgb(20, 20, 56);
+            background: linear-gradient(157deg, rgba(20, 20, 56, 1) 0%, rgba(40, 40, 98, 1) 30%, rgba(34, 34, 83, 1) 100%);
             box-shadow: 5px 5px 16px 0px rgb(0 0 0 / 15%);
+
             h3 {
                 font-size: 18px;
                 font-weight: 500;
@@ -1752,58 +1765,58 @@ footer {
     }
 }
 
-  
-  .cardWrap {
+
+.cardWrap {
     margin: 10px;
     -webkit-transform: perspective(800px);
     transform: perspective(800px);
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
     cursor: pointer;
-  }
-  
-  .cardWrap:hover .cardInfo {
+}
+
+.cardWrap:hover .cardInfo {
     -webkit-transform: translateY(0);
     transform: translateY(0);
-  }
-  
-  .cardWrap:hover .cardInfo p {
+}
+
+.cardWrap:hover .cardInfo p {
     opacity: 1;
-  }
-  
-  .cardWrap:hover .cardInfo,
-  .cardWrap:hover .cardInfo p {
+}
+
+.cardWrap:hover .cardInfo,
+.cardWrap:hover .cardInfo p {
     -webkit-transition: 0.6s cubic-bezier(0.23, 1, 0.32, 1);
     transition: 0.6s cubic-bezier(0.23, 1, 0.32, 1);
-  }
-  
-  .cardWrap:hover .cardInfo:after {
+}
+
+.cardWrap:hover .cardInfo:after {
     -webkit-transition: 5s cubic-bezier(0.23, 1, 0.32, 1);
     transition: 5s cubic-bezier(0.23, 1, 0.32, 1);
     opacity: 1;
     -webkit-transform: translateY(0);
     transform: translateY(0);
-  }
-  
-  .cardWrap:hover .cardBg {
+}
+
+.cardWrap:hover .cardBg {
     -webkit-transition: 0.6s cubic-bezier(0.23, 1, 0.32, 1),
-      opacity 5s cubic-bezier(0.23, 1, 0.32, 1);
+        opacity 5s cubic-bezier(0.23, 1, 0.32, 1);
     transition: 0.6s cubic-bezier(0.23, 1, 0.32, 1),
-      opacity 5s cubic-bezier(0.23, 1, 0.32, 1);
+        opacity 5s cubic-bezier(0.23, 1, 0.32, 1);
     opacity: 0.8;
-  }
-  
-  .cardWrap:hover .card {
+}
+
+.cardWrap:hover .card {
     -webkit-transition: 0.6s cubic-bezier(0.23, 1, 0.32, 1),
-      box-shadow 2s cubic-bezier(0.23, 1, 0.32, 1);
+        box-shadow 2s cubic-bezier(0.23, 1, 0.32, 1);
     transition: 0.6s cubic-bezier(0.23, 1, 0.32, 1),
-      box-shadow 2s cubic-bezier(0.23, 1, 0.32, 1);
+        box-shadow 2s cubic-bezier(0.23, 1, 0.32, 1);
     box-shadow: rgba(255, 255, 255, 0.2) 0 0 40px 5px, white 0 0 0 1px,
-      rgba(0, 0, 0, 0.66) 0 30px 60px 0, inset #333 0 0 0 5px,
-      inset white 0 0 0 6px;
-  }
-  
-  .card {
+        rgba(0, 0, 0, 0.66) 0 30px 60px 0, inset #333 0 0 0 5px,
+        inset white 0 0 0 6px;
+}
+
+.card {
     position: relative;
     -webkit-box-flex: 0;
     flex: 0 0 240px;
@@ -1813,12 +1826,12 @@ footer {
     overflow: hidden;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.66) 0 30px 60px 0, inset #333 0 0 0 5px,
-      inset rgba(255, 255, 255, 0.5) 0 0 0 6px;
+        inset rgba(255, 255, 255, 0.5) 0 0 0 6px;
     -webkit-transition: 1s cubic-bezier(0.445, 0.05, 0.55, 0.95);
     transition: 1s cubic-bezier(0.445, 0.05, 0.55, 0.95);
-  }
-  
-  .cardBg {
+}
+
+.cardBg {
     opacity: 0.5;
     position: absolute;
     top: -20px;
@@ -1830,13 +1843,13 @@ footer {
     background-position: center;
     background-size: cover;
     -webkit-transition: 1s cubic-bezier(0.445, 0.05, 0.55, 0.95),
-      opacity 5s 1s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+        opacity 5s 1s cubic-bezier(0.445, 0.05, 0.55, 0.95);
     transition: 1s cubic-bezier(0.445, 0.05, 0.55, 0.95),
-      opacity 5s 1s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+        opacity 5s 1s cubic-bezier(0.445, 0.05, 0.55, 0.95);
     pointer-events: none;
-  }
-  
-  .cardInfo {
+}
+
+.cardInfo {
     padding: 20px;
     position: absolute;
     bottom: 0;
@@ -1845,21 +1858,21 @@ footer {
     transform: translateY(40%);
     -webkit-transition: 0.6s 1.6s cubic-bezier(0.215, 0.61, 0.355, 1);
     transition: 0.6s 1.6s cubic-bezier(0.215, 0.61, 0.355, 1);
-  }
-  
-  .cardInfo p {
+}
+
+.cardInfo p {
     opacity: 0;
     text-shadow: black 0 2px 3px;
     -webkit-transition: 0.6s 1.6s cubic-bezier(0.215, 0.61, 0.355, 1);
     transition: 0.6s 1.6s cubic-bezier(0.215, 0.61, 0.355, 1);
-  }
-  
-  .cardInfo * {
+}
+
+.cardInfo * {
     position: relative;
     z-index: 1;
-  }
-  
-  .cardInfo:after {
+}
+
+.cardInfo:after {
     content: "";
     position: absolute;
     top: 0;
@@ -1867,30 +1880,53 @@ footer {
     z-index: 0;
     width: 100%;
     height: 100%;
-    background-image: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      from(transparent),
-      to(rgba(0, 0, 0, 0.6))
-    );
-    background-image: linear-gradient(
-      to bottom,
-      transparent 0%,
-      rgba(0, 0, 0, 0.6) 100%
-    );
+    background-image: -webkit-gradient(linear,
+            left top,
+            left bottom,
+            from(transparent),
+            to(rgba(0, 0, 0, 0.6)));
+    background-image: linear-gradient(to bottom,
+            transparent 0%,
+            rgba(0, 0, 0, 0.6) 100%);
     background-blend-mode: overlay;
     opacity: 0;
     -webkit-transform: translateY(100%);
     transform: translateY(100%);
     -webkit-transition: 5s 1s cubic-bezier(0.445, 0.05, 0.55, 0.95);
     transition: 5s 1s cubic-bezier(0.445, 0.05, 0.55, 0.95);
-  }
-  
-  .cardInfo h1 {
+}
+
+.cardInfo h1 {
     font-family: "Playfair Display";
     font-size: 36px;
     font-weight: 700;
     text-shadow: rgba(0, 0, 0, 0.5) 0 10px 10px;
-  }
-  
+}
+
+body {
+	background: #f9f9f9;
+	color: #333;
+}
+
+.scroll-indicator {	
+	position: absolute;
+    margin-top: 610px;
+    color: white;
+	left: 50%;
+	font-size: 50px;
+	
+	-webkit-animation: bounce 2.3s infinite; 
+	animation: bounce 2.3s infinite;
+}
+
+@-webkit-keyframes bounce {
+	 0% { top: 15%; }
+	 50%   { top: 20%; }
+	 100% { top: 15%; }
+}
+
+@keyframes bounce {
+	 0% { top: 15%; }
+	 50%   { top: 20%; }
+	 100% { top: 15%; }
+}
