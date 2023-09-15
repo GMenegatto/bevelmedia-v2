@@ -356,6 +356,10 @@ table {
     padding: 120px 0;
     border-bottom: 1px solid #424264;
 
+    b {
+        font-weight: bold !important;
+    }
+
     span {
         padding: 3px 7px;
         font: normal 500 1.4rem/2.5rem "Space Grotesk", sans-serif;
@@ -520,7 +524,6 @@ a {
             padding: 30px 15px;
             background: rgb(20, 20, 56);
             background: linear-gradient(157deg, rgba(20, 20, 56, 1) 0%, rgba(40, 40, 98, 1) 30%, rgba(34, 34, 83, 1) 100%);
-            box-shadow: 5px 5px 16px 0px rgb(0 0 0 / 15%);
 
             h3 {
                 font-size: 18px;
