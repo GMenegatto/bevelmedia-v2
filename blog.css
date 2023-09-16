@@ -9,7 +9,6 @@
   padding: 30px 0;
   color: white;
 }
-
 .blog-title h1 {
   color: white;
 }
@@ -18,63 +17,38 @@
   padding: 60px 0;
   background-color: #fcfaff;
 }
-
 .blog .posts {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .post-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 33.33%;
-          flex: 0 0 33.33%;
+  flex: 0 0 33.33%;
 }
 
 .post {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   text-decoration: none;
   cursor: pointer;
-  -webkit-transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
   transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
   margin: 15px;
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  flex: 1;
 }
-
 .post .post-img {
   overflow: hidden;
   border-radius: 12px;
 }
-
 .post .post-img img {
   max-width: 100%;
   display: block;
 }
-
 .post .post-info {
   padding: 40px 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
-
 .post span {
   font-weight: 600;
   font-size: 12px;
@@ -82,11 +56,9 @@
   border-radius: 5px;
   color: white;
   padding: 6px 8px;
-  max-width: -webkit-max-content;
   max-width: -moz-max-content;
   max-width: max-content;
 }
-
 .post h2 {
   font-weight: bold;
   margin: 20px 0;
@@ -94,90 +66,58 @@
   font-size: 24px;
   line-height: 29px;
 }
-
 .post h3 {
   line-height: 23px;
   color: #767676;
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  flex: 1;
 }
-
 .post p {
   margin-top: 20px;
   font-weight: bold;
   color: #5106d7;
 }
-
 .post:hover {
-  -webkit-transform: translateY(-5px);
-          transform: translateY(-5px);
+  transform: translateY(-5px);
   background: #faf7ff;
   border-radius: 14px;
 }
 
 .highlighted {
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
   width: 100%;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 100%;
-          flex: 0 0 100%;
+  flex: 0 0 100%;
 }
-
 .highlighted .post {
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
 }
-
 .highlighted .post .post-img {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 50%;
-          flex: 0 0 50%;
+  flex: 0 0 50%;
 }
-
 .highlighted .post .post-info {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  flex: 1;
   padding: 40px 50px;
 }
-
 .highlighted .post h2 {
   font-size: 34px;
   line-height: 42px;
 }
 
 .post-detail .post-header {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 .post-detail .post-header .post-img {
   overflow: hidden;
   border-radius: 12px;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 60%;
-          flex: 0 0 60%;
+  flex: 0 0 60%;
 }
-
 .post-detail .post-header .post-img img {
   max-width: 100%;
   display: block;
 }
-
 .post-detail .post-header .post-info {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  flex: 1;
   padding: 40px 50px;
 }
-
 .post-detail .post-header span {
   font-weight: 600;
   font-size: 12px;
@@ -185,11 +125,9 @@
   border-radius: 5px;
   color: white;
   padding: 6px 8px;
-  max-width: -webkit-max-content;
   max-width: -moz-max-content;
   max-width: max-content;
 }
-
 .post-detail .post-header h1 {
   font-weight: bold;
   margin: 20px 0;
@@ -197,25 +135,21 @@
   font-size: 34px;
   line-height: 42px;
 }
-
 .post-detail .post-content {
   padding: 0 40px;
   margin: 60px 0;
 }
-
 .post-detail .post-content h3 {
   font-size: 24px;
   font-weight: bold;
   color: #252525;
   margin: 30px 0 10px 0;
 }
-
 .post-detail .post-content p {
   font-size: 18px;
   line-height: 25px;
   margin: 10px 0;
 }
-
 .post-detail .post-content span {
   margin-top: 60px;
   display: block;
@@ -230,9 +164,6 @@
   margin-bottom: 30px;
   text-decoration: none;
   color: #5106d7;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   gap: 10px;
-}
-/*# sourceMappingURL=blog.css.map */
+}/*# sourceMappingURL=blog.css.map */

@@ -36,6 +36,15 @@
     <meta property="twitter:image" content="/assets/og-image.png">
 
 
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <!-- JavaScript -->
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
 
     <meta name="adopt-website-id" content="7964a256-34ec-4013-918f-54608b88033a" />
     <script src="//tag.goadopt.io/injector.js?website_code=7964a256-34ec-4013-918f-54608b88033a"
@@ -93,7 +102,7 @@
 
                     <h2>Website</h2>
 
-
+                </a>
 
 
 
@@ -104,35 +113,41 @@
         </div>
     </header>
 
-    <section class="fotos-section">
+    <section id="modalidades" class="section nossas-modalidades">
         <div class="container">
-            <h2 class="title">
-                Fotografia de Alimentos
-            </h2>
 
-            <div class="fotos">
-                <div class="foto">
-                    <img src="../assets/fotos/01.png" alt="">
-                </div>
-                <div class="foto">
-                    <img src="../assets/fotos/13.png" alt="">
-                </div>
-                <div class="foto">
-                    <img src="../assets/fotos/05.png" alt="">
-                </div>
-                <div class="foto">
-                    <img src="../assets/fotos/10.png" alt="">
-                </div>
-                <div class="foto">
-                    <img src="../assets/fotos/Laranja.png" alt="">
-                </div>
-                <div class="foto">
-                    <img src="../assets/fotos/11.png" alt="">
-                </div>
+            <div class="home-demo">
+                <div id="owl-example" class="owl-carousel owl-theme">
+                    
 
 
+                    <div class="modalidade">
+                        <img src="../assets/fotos/01.png" alt="">
+                    </div>
+                    <div class="modalidade">
+                        <img src="../assets/fotos/13.png" alt="">
+                    </div>
+                    <div class="modalidade">
+                        <img src="../assets/fotos/05.png" alt="">
+                    </div>
 
+
+                    <div class="modalidade">
+                        <img src="../assets/fotos/10.png" alt="">
+                    </div>
+                    <div class="modalidade">
+                        <img src="../assets/fotos/Laranja.png" alt="">
+                    </div>
+                    <div class="modalidade">
+                        <img src="../assets/fotos/11.png" alt="">
+                    </div>
+
+
+
+
+                </div>
             </div>
+
         </div>
     </section>
 
@@ -164,6 +179,42 @@
             <p>contato@bevelmedia.com.br</p>
         </div>
     </footer>
+
+
+    
+
+    <script src="carrossel.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <script>
+        $(function () {
+            // Owl Carousel
+            var owl = $(".owl-carousel");
+            owl.owlCarousel({
+                items: 3,
+                margin: 10,
+                loop: true,
+                nav: true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    741: {
+                        items: 2
+                    },
+                    1281: {
+                        items: 3
+                    }
+                }
+            });
+        });
+
+    </script>
+
+
+
 </body>
 
 </html>
