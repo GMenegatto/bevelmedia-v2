@@ -389,8 +389,13 @@ a {
         }
 
         img {
-            height: 320px;
+            height: auto;
+            width: 100%;
         }
+    }
+
+    .owl-next, .owl-prev {
+        display: none !important;
     }
 
 }
