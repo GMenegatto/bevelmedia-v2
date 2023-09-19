@@ -1072,6 +1072,82 @@ footer {
         max-width: 760px;
     }
 
+    .news .instagram-row {
+        flex-direction: column;
+    }
+
+    .video .container img {
+        display: none;
+    }
+
+    .who-we-are {
+        span {
+            margin: 0 auto;
+            margin-bottom: 20px;
+        }
+
+        p {
+            text-align: center;
+            font-size: 16px;
+        }
+    }
+
+    .news .instagram-row {
+        .right-side {
+            margin-top: 20px;
+        }
+        .left-side {
+
+            p,
+            h2 {
+                text-align: center;
+            }
+        }
+    }
+
+    .title {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .video .container .video-container {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .video,
+    .who-we-are,
+    .sec {
+        padding: 80px 0;
+    }
+
+    .portfolio-2 .items {
+        flex-direction: column;
+
+        .cardWrap {
+            margin: 0;
+
+        }
+
+        .card {
+            height: 200px;
+        }
+    }
+
+    .banner .left .icon,
+    .banner .right .icon {
+        top: -61px;
+        left: -106px;
+    }
+
+    .scroll-indicator {
+        left: 46% !important;
+
+        i {
+            font-size: 40px !important;
+        }
+    }
+
     .burgerdiv {
         button {
             top: 52px;
@@ -1085,6 +1161,26 @@ footer {
     .banner {
         background-size: auto;
         border-top: 100px solid white;
+
+        .left {
+            margin-top: 40px;
+        }
+
+        .camera img {
+            width: 100%;
+        }
+
+        .info {
+            h1 {
+                font-size: 38px;
+                font-weight: bold;
+                color: white;
+                position: relative;
+                text-align: center;
+                line-height: 42px;
+                margin-top: 50px;
+            }
+        }
 
         .right-side {
             display: none;
@@ -1129,6 +1225,15 @@ footer {
         width: 100%;
         z-index: 1;
         background: white;
+
+        display: flex;
+        background: none;
+        position: relative;
+        display: flex !important;
+
+        nav {
+            display: none !important;
+        }
 
         .meet-bevel {
             display: none;
@@ -1214,7 +1319,7 @@ footer {
     }
 
     .banner {
-        border-top: 91px solid white;
+        border-top: none;
 
         .right-side {
             display: block;
@@ -1336,6 +1441,8 @@ footer {
 ///////////////////////
 
 .burgerdiv {
+    display: none;
+
     button {
         position: fixed;
         top: 38px;
@@ -1908,11 +2015,11 @@ footer {
 }
 
 body {
-	background: #f9f9f9;
-	color: #333;
+    background: #f9f9f9;
+    color: #333;
 }
 
-.scroll-indicator {	
+.scroll-indicator {
     position: absolute;
     bottom: 0;
     left: 50%;
@@ -1920,13 +2027,14 @@ body {
     height: 170px;
 
     color: white;
+
     i {
-	font-size: 50px;
+        font-size: 50px;
 
     }
-	
-	-webkit-animation: bounce 4s infinite; 
-	animation: bounce 4s infinite;
+
+    -webkit-animation: bounce 4s infinite;
+    animation: bounce 4s infinite;
 }
 
 // @-webkit-keyframes bounce {
@@ -1936,6 +2044,15 @@ body {
 // }
 
 @keyframes bounce {
-    0% {translate: 0 20px }
-    50%   { translate: 0 60px }
-    100% { translate: 0 20px }}
+    0% {
+        translate: 0 20px
+    }
+
+    50% {
+        translate: 0 60px
+    }
+
+    100% {
+        translate: 0 20px
+    }
+}
