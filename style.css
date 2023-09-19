@@ -1385,7 +1385,7 @@ footer p {
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 960px) {
   .container {
     max-width: 360px;
   }
@@ -1410,9 +1410,9 @@ footer p {
     display: none;
   }
   .reveal {
-    -webkit-transform: translateY(0px);
-    transform: translateY(0px);
-    opacity: 1;
+    -webkit-transform: translateY(0px) !important;
+    transform: translateY(0px) !important;
+    opacity: 1 !important;
   }
   .video-container {
     max-width: 100%;
