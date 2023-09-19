@@ -1246,7 +1246,7 @@ footer p {
     text-align: center;
   }
   .title {
-    font-size: 28px;
+    font-size: 38px;
     text-align: center;
   }
   .video .container .video-container {
@@ -1260,7 +1260,7 @@ footer p {
     padding: 80px 0;
   }
   .portfolio-2 .items {
-    margin-top: 40px;
+    margin-top: 80px;
   }
   .our-services .services {
     margin-top: 40px;
@@ -1343,7 +1343,7 @@ footer p {
     font-size: 14px;
   }
   .section-title {
-    font-size: 28px;
+    font-size: 38px;
   }
   header nav {
     display: none;
@@ -1426,6 +1426,9 @@ footer p {
   .contact .form-box .popup img {
     width: 260px;
   }
+  .contact .form-box {
+    margin-top: 70px;
+  }
   .instagram-row {
     display: none;
   }
@@ -1436,6 +1439,9 @@ footer p {
   }
   .video-container {
     max-width: 100%;
+  }
+  .news {
+    display: none;
   }
   .banner {
     border-top: none;
@@ -1479,7 +1485,7 @@ footer p {
     font-size: 14px;
   }
   .section-title {
-    font-size: 28px;
+    font-size: 38px;
   }
   header nav {
     display: none;
@@ -1501,10 +1507,10 @@ footer p {
     font-size: 16px;
   }
   .our-services {
-    padding: 100px 0;
+    padding: 80px 0;
   }
   .our-services .services {
-    margin-top: 30px;
+    margin-top: 80px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
