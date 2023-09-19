@@ -1389,6 +1389,9 @@ footer p {
   .container {
     max-width: 360px;
   }
+  .instagram-row {
+    display: none;
+  }
   .contact {
     padding: 100px 0;
   }
