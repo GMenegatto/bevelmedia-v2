@@ -343,6 +343,12 @@ a {
 }
 
 @media only screen and (max-width: 960px) {
+  .header {
+    padding: 35px 30px !important;
+  }
+  .header .logo {
+    max-width: 100px !important;
+  }
   .container {
     max-width: 360px !important;
     width: 100%;
