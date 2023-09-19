@@ -433,6 +433,9 @@ a {
     height: auto;
     width: 100%;
   }
+  .contact-2 .box h2, .contact-2 .box p {
+    font-family: 'Inter';
+  }
   .owl-next, .owl-prev {
     display: none !important;
   }
