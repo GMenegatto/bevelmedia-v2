@@ -195,6 +195,14 @@ table {
   display: none;
 }
 
+.mobile {
+  display: none;
+}
+
+.nomobile {
+  display: block;
+}
+
 .banner {
   background-image: url(assets/CAPA_SITE_2023.png);
   background-position: center center;
@@ -1207,6 +1215,12 @@ footer p {
   .container {
     max-width: 760px;
   }
+  .mobile {
+    display: block;
+  }
+  .nomobile {
+    display: none;
+  }
   .news .instagram-row {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1241,7 +1255,8 @@ footer p {
   }
   .video,
   .who-we-are,
-  .sec, .section {
+  .sec,
+  .section {
     padding: 80px 0;
   }
   .portfolio-2 .items {
