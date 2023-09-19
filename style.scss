@@ -1167,7 +1167,9 @@ footer {
         }
 
         .camera img {
-            width: 100%;
+            width: 80%;
+            margin: 0 auto;
+            display: block;
         }
 
         .info {
@@ -1178,7 +1180,7 @@ footer {
                 position: relative;
                 text-align: center;
                 line-height: 42px;
-                margin-top: 50px;
+                margin-top: 60px;
             }
         }
 

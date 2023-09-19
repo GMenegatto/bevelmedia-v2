@@ -1281,7 +1281,9 @@ footer p {
     margin-top: 40px;
   }
   .banner .camera img {
-    width: 100%;
+    width: 80%;
+    margin: 0 auto;
+    display: block;
   }
   .banner .info h1 {
     font-size: 38px;
@@ -1290,7 +1292,7 @@ footer p {
     position: relative;
     text-align: center;
     line-height: 42px;
-    margin-top: 50px;
+    margin-top: 60px;
   }
   .banner .right-side {
     display: none;
