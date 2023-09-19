@@ -324,11 +324,100 @@ a {
   margin-top: 10px;
 }
 
-.owl-next, .owl-prev {
+.owl-next,
+.owl-prev {
   background: #cdcdcd !important;
 }
 
-.owl-next:hover, .owl-prev:hover {
+.owl-next:hover,
+.owl-prev:hover {
   background: #afafaf !important;
+}
+
+@media only screen and (max-width: 960px) {
+  .container {
+    max-width: 360px !important;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .fotos {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0 !important;
+  }
+  .fotos .foto {
+    max-width: 100% !important;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    flex: 1;
+    width: 100% !important;
+    max-width: 100%;
+  }
+  .contact-2 {
+    padding-bottom: 100px;
+    padding-top: 0;
+  }
+  .contact-2 .box h2 {
+    font-size: 24px;
+  }
+  .contact-2 .box a {
+    margin-top: 40px;
+    background: #5E07DE;
+    color: white;
+    border-radius: 10px;
+    padding: 18px 16px;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+    text-align: center;
+  }
+  .polygon {
+    display: none;
+  }
+  header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .item-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .item-container a {
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+  .video-container {
+    max-width: 100% !important;
+    width: 100% !important;
+    -webkit-box-flex: 1 !important;
+        -ms-flex: 1 !important;
+            flex: 1 !important;
+  }
+  .items {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0;
+  }
+  .items .info {
+    bottom: 30px;
+    left: 25px;
+  }
+  .items .info h2 {
+    font-size: 24px;
+  }
+  .items img {
+    height: 320px;
+  }
 }
 /*# sourceMappingURL=portfolio.css.map */

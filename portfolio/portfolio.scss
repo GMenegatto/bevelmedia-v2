@@ -71,7 +71,7 @@ header {
         }
     }
 
-    
+
 }
 
 .item-container {
@@ -218,7 +218,7 @@ a {
         background-color: #B7B7B7;
         margin-top: 20px;
 
-        
+
 
         img {
             width: 100%;
@@ -260,17 +260,17 @@ a {
 
         h2 {
             font-weight: bold;
-    color: white;
-    font-size: 28px;
+            color: white;
+            font-size: 28px;
 
-    &::before {
-        content: '';
-        display: block;
-        height: 5px;
-        width: 73px;
-        margin-bottom: 10px;
-        background-color: white;
-    }
+            &::before {
+                content: '';
+                display: block;
+                height: 5px;
+                width: 73px;
+                margin-bottom: 10px;
+                background-color: white;
+            }
         }
 
         p {
@@ -281,10 +281,101 @@ a {
     }
 }
 
-.owl-next, .owl-prev {
+.owl-next,
+.owl-prev {
     background: #cdcdcd !important;
 
     &:hover {
         background: #afafaf !important;
     }
+}
+
+
+@media only screen and (max-width: 960px) {
+    .container {
+        max-width: 360px !important;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .fotos {
+        flex-direction: column;
+margin: 0 !important;
+
+        .foto {
+            max-width: 100% !important;
+            flex: 1;
+            flex: 1;
+            width: 100% !important;
+            max-width: 100%;
+        }
+    }
+
+    .contact-2 {
+        padding-bottom: 100px;
+        padding-top: 0;
+
+        .box {
+            h2 {
+                font-size: 24px;
+            }
+
+            a {
+                margin-top: 40px;
+                background: #5E07DE;
+                color: white;
+                border-radius: 10px;
+                padding: 18px 16px;
+                font-weight: bold;
+                font-size: 18px;
+                text-decoration: none;
+                text-align: center;
+            }
+        }
+    }
+
+    .polygon {
+        display: none;
+    }
+
+    header {
+        flex-direction: column;
+    }
+
+    .item-container {
+        flex-direction: column;
+
+        a {
+            display: block;
+            text-align: center;
+            width: 100%;
+        }
+
+
+    }
+
+    .video-container {
+        max-width: 100% !important;
+        width: 100% !important;
+        flex: 1 !important;
+    }
+
+    .items {
+        flex-direction: column;
+        margin: 0;
+
+        .info {
+            bottom: 30px;
+            left: 25px;
+
+            h2 {
+                font-size: 24px;
+            }
+        }
+
+        img {
+            height: 320px;
+        }
+    }
+
 }
