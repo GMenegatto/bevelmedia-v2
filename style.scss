@@ -1151,6 +1151,7 @@ footer {
 
     .scroll-indicator {
         left: 46% !important;
+        display: none;
 
         i {
             font-size: 40px !important;
@@ -1170,6 +1171,7 @@ footer {
     .banner {
         background-size: auto;
         border-top: 100px solid white;
+        height: 90vh;
 
         .right {
             margin: 0;

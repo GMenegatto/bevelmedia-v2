@@ -1269,6 +1269,7 @@ footer p {
   }
   .scroll-indicator {
     left: 46% !important;
+    display: none;
   }
   .scroll-indicator i {
     font-size: 40px !important;
@@ -1282,6 +1283,7 @@ footer p {
   .banner {
     background-size: auto;
     border-top: 100px solid white;
+    height: 90vh;
   }
   .banner .right {
     margin: 0;
