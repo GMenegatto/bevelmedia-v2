@@ -402,6 +402,19 @@ a {
         -ms-flex: 1 !important;
             flex: 1 !important;
   }
+  .videos .container {
+    gap: 20px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .videos .container .video-container {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
   .items {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
