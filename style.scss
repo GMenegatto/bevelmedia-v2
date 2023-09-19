@@ -1171,8 +1171,8 @@ footer {
         background-size: auto;
         border-top: 100px solid white;
 
-        .left {
-            margin-top: 40px;
+        .right {
+            margin: 0;
         }
 
         .camera img {
@@ -1182,6 +1182,7 @@ footer {
         }
 
         .info {
+            
             h1 {
                 font-size: 38px;
                 font-weight: bold;
@@ -1189,7 +1190,7 @@ footer {
                 position: relative;
                 text-align: center;
                 line-height: 42px;
-                margin-top: 60px;
+                margin-top: 0;
             }
         }
 
@@ -1349,6 +1350,11 @@ footer {
 
     .banner {
         border-top: none;
+
+        .info {
+            display: flex !important;
+            flex-direction: column;
+        }
 
         .right-side {
             display: block;

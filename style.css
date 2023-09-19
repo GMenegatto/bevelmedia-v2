@@ -1283,8 +1283,8 @@ footer p {
     background-size: auto;
     border-top: 100px solid white;
   }
-  .banner .left {
-    margin-top: 40px;
+  .banner .right {
+    margin: 0;
   }
   .banner .camera img {
     width: 80%;
@@ -1298,7 +1298,7 @@ footer p {
     position: relative;
     text-align: center;
     line-height: 42px;
-    margin-top: 60px;
+    margin-top: 0;
   }
   .banner .right-side {
     display: none;
@@ -1422,6 +1422,15 @@ footer p {
   }
   .banner {
     border-top: none;
+  }
+  .banner .info {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .banner .right-side {
     display: block;
