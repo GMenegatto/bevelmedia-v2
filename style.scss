@@ -1096,6 +1096,7 @@ footer {
         .right-side {
             margin-top: 20px;
         }
+
         .left-side {
 
             p,
@@ -1117,8 +1118,16 @@ footer {
 
     .video,
     .who-we-are,
-    .sec {
+    .sec, .section {
         padding: 80px 0;
+    }
+
+    .portfolio-2 .items {
+        margin-top: 40px;
+    }
+
+    .our-services .services {
+        margin-top: 40px;
     }
 
     .portfolio-2 .items {
@@ -1318,6 +1327,20 @@ footer {
                 }
             }
         }
+    }
+
+    .instagram-row {
+        display: none;
+    }
+
+    .reveal {
+        -webkit-transform: translateY(0px);
+        transform: translateY(0px);
+        opacity: 1;
+    }
+
+    .video-container {
+        max-width: 100%;
     }
 
     .banner {
