@@ -102,7 +102,7 @@ video {
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
-    font-family: "Space Grotesk", sans-serif;
+    font-family: "Space Grotesk", Arial, Helvetica, sans-serif;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -212,12 +212,13 @@ table {
 
 
 .banner {
-    background-image: url(assets/CAPA_SITE_2023.png);
+    background-image: url(assets/CAPA_SITE_2023.webp);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     height: 100vh;
+    background-color: #1e2221;
 
     .container {
         display: flex;
@@ -417,6 +418,13 @@ table {
         .video-container {
             width: 50%;
             max-width: 50%;
+
+            display: flex;
+            align-items: center;
+
+            lite-vimeo {
+                width: 100%;
+            }
         }
     }
 }
@@ -717,7 +725,7 @@ a {
 
 .our-services {
     padding: 140px 0;
-    background: url('assets/bg-service.png');
+    background: url('assets/bg-service.webp');
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -858,7 +866,7 @@ a {
 }
 
 .contact {
-    background-image: url(assets/bg-contato.png);
+    background-image: url(assets/bg-contato.webp);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -974,7 +982,7 @@ a {
             -webkit-box-sizing: border-box;
             box-sizing: border-box;
             color: black;
-            font-family: "Inter", sans-serif;
+            font-family: "Inter", Arial, Helvetica, sans-serif;
             height: 150px;
             transition: all 0.2s ease-in-out;
             resize: none;
@@ -1003,7 +1011,7 @@ a {
             background: #950cff;
             color: white;
             font-weight: bold;
-            font-family: "Inter", sans-serif;
+            font-family: "Inter", Arial, Helvetica, sans-serif;
             font-size: 14px;
             cursor: pointer;
             transition: all 0.2s ease-in-out;
@@ -1370,9 +1378,10 @@ footer {
     .video-container {
         max-width: 100%;
     }
-.news {
-    display: none;
-}
+
+    .news {
+        display: none;
+    }
 
     .banner {
         border-top: none;
@@ -2069,7 +2078,7 @@ footer {
 }
 
 .cardInfo h1 {
-    font-family: "Playfair Display";
+    font-family: "Playfair Display", Arial, Helvetica, sans-serif;
     font-size: 36px;
     font-weight: 700;
     text-shadow: rgba(0, 0, 0, 0.5) 0 10px 10px;
