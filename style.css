@@ -202,6 +202,12 @@ table {
   display: block;
 }
 
+.g-recaptcha {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
 .banner {
   background-image: url(assets/CAPA_SITE_2023.webp);
   background-position: center center;
